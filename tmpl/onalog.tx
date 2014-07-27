@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="おなログ">
+
+    <!-- default js -->
+    <script src="<: uri_for('/static/js/es5-shim.min.js') :>"></script>
+    <script src="<: uri_for('/static/js/micro_template.js') :>"></script>
+    <script src="<: uri_for('/static/js/strftime.js') :>"></script>
+    <script src="<: uri_for('/static/js/sprintf-0.7-beta1.js') :>"></script>
+    <script src="<: uri_for('/static/js/micro-location.js') :>"></script>
+    <script src="<: uri_for('/static/js/micro_dispatcher.js') :>"></script>
+    <script src="<: uri_for('/static/js/xsrf-token.js') :>"></script>
+    <link href="<: static_file('/static/css/main.css') :>" rel="stylesheet" type="text/css" media="screen" />
+    <script src="<: static_file('/static/js/main.js') :>"></script>
+
+    <!--    <title>あなたのオナニー記録します</title> -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <img class="top" src="static/img/top.png">
+      <div class="sendTweet">
+        <form action="/" method="post">
+          <textarea class="tweetArea" rows="5" placeholder="140字であなたの切ない思いを叫んでください"></textarea>
+          <input type="submit" value="　さけぶ　" class="btn btn-primary right">
+        </form>
+      </div>
+      <div class="list">
+        <div class="shout clearfix">
+          <div class="left-side">
+            <img class="image" src="static/img/face1.png">
+          </div>
+          <div class="right-side">
+            <div class="content">
+            　ひさかたの光のどけき春の日に静心（しづごころ）なく　花の散るらむ
+            </div>
+          </div>
+          <div class="appendix">
+            <div class="gray date">
+              2014年7月25日 10:00:00
+            </div>
+            <div class="gray item">
+              <span class="glyphicon glyphicon-thumbs-up"></span>
+            </div>
+          </div>
+        </div>
+        <div class="shout clearfix">
+          <div class="left-side">
+            <img class="image" src="static/img/face1.png">
+          </div>
+          <div class="right-side">
+            <div class="content">
+            　ひさかたの光のどけき春の日に静心（しづごころ）なく　花の散るらむ
+            </div>
+          </div>
+          <div class="appendix">
+            <div class="gray date">
+              2014年7月25日 10:00:00
+            </div>
+            <div class="item">
+              <span class="gray glyphicon glyphicon-thumbs-up"></span>
+            </div>
+          </div>
+        </div>
+        <div class="shout clearfix">
+          <div class="left-side">
+            <img class="image" src="static/img/face1.png">
+          </div>
+          <div class="right-side">
+            <div class="content">
+            　ひさかたの光のどけき春の日に静心（しづごころ）なく　花の散るらむ
+            </div>
+          </div>
+          <div class="appendix">
+            <div class="gray date">
+              2014年7月25日 10:00:00
+            </div>
+            <div class="item">
+              <span class="gray glyphicon glyphicon-thumbs-up"></span>
+            </div>
+          </div>
+        </div>
+        <div class="shout clearfix">
+          <div class="left-side">
+            <img class="image" src="static/img/face1.png">
+          </div>
+          <div class="right-side">
+            <div class="content">
+            　ひさかたの光のどけき春の日に静心（しづごころ）なく　花の散るらむ
+            </div>
+          </div>
+          <div class="appendix">
+            <div class="gray date">
+              2014年7月25日 10:00:00
+            </div>
+            <div class="item">
+              <span class="gray glyphicon glyphicon-thumbs-up"></span>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          さらによみこむ
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/bootstrap/js/bootstrap.min.js"></script>
+</html>
+
